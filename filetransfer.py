@@ -7,9 +7,9 @@ import win32com.client  # for interacting with Windows COM objects
 
 
 # Input and output folders
-documents = r'\Users\Jodi\OneDrive\Desktop\documents' # Folder containing unorganized RTF files
-Organized_Documents = r'\Users\Jodi\OneDrive\Desktop\Organized Documents'  # Folder where organized files will be stored
-missed_files = r'\Users\Jodi\OneDrive\Desktop\missed files' # Folder for files that could not be processed
+documents = r'your file path' # Folder containing unorganized RTF files
+Organized_Documents = r'Final file path'  # Folder where organized files will be stored
+missed_files = r'hold over file path' # Folder for files that could not be processed
 
 
 
@@ -103,3 +103,4 @@ organize_rtf_files()
 
 
 #TODO 1.: Add logging to a file instead of printing to console
+
